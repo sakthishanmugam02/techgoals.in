@@ -274,8 +274,8 @@ nav .logo a {
 .menu {
   position: fixed;
   display: inline-block;
-  top: 18px;
-  left: 15px;
+  top: 25px;
+  right: 25px;
   cursor: pointer;
   z-index: 9999;
 }
@@ -284,7 +284,7 @@ span.bar {
   height: 5px;
   margin-bottom: 5px;
   border-radius: 5px;
-  background: #fff;
+  background: #000;
   display: block;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
