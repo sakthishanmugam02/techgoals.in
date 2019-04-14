@@ -297,19 +297,19 @@ span.bar {
 .menu.active-menu span.bar {
   background: #fff;
 }
-.active-menu .b1 {
+/* .active-menu .b1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 7px);
   -moz-transform: rotate(-45deg) translate(-9px, 7px);
   -o-transform: rotate(-45deg) translate(-9px, 7px);
-}
+} */
 .active-menu .b2 {
   opacity: 0;
 }
-.active-menu .b3 {
+/* .active-menu .b3 {
   -webkit-transform: rotate(45deg) translate(-7px, -6px);
   -moz-transform: rotate(45deg) translate(-7px, -6px);
   -o-transform: rotate(45deg) translate(-7px, -6px);
-}
+} */
 .side-menu {
   position: fixed;
   top: 0;
@@ -407,6 +407,12 @@ a.selected-item:before,
 .about-me .introduction p.intro {
   margin-top: 20px;
 }
+
+.about-me .introduction p.intro-detail {
+  margin-top: 10px;
+  font-size: 0.75rem;
+}
+
 .about-me .personal-wrapper {
   display: flex;
   flex-direction: column;
