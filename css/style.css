@@ -384,6 +384,7 @@ a.selected-item:before,
 .about-me .my-pic,
 .about-me .introduction {
 	margin-bottom: 20px;
+	text-align: left;
 }
 .about-me .my-pic img {
 	border-radius: 50%;
@@ -412,6 +413,72 @@ a.selected-item:before,
 	margin-top: 10px;
 	font-size: 0.75rem;
 }
+
+.about-me .card {
+	width: 18rem;
+	padding: 15px;
+	margin: 5px;
+}
+
+.about-me .card .card-body .card-title {
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.about-me .row {
+	text-align: center;
+}
+
+.about-me .card .card-body .card-text {
+	padding: 1px;
+	margin: 1px;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.about-me .card .card-body .click-ref {
+	padding: 1px;
+	margin: 1px;
+	text-decoration: none;
+}
+
+.about-me .card a:link,
+a:visited {
+	margin: 1px;
+	background-color: white;
+	color: grey;
+	text-decoration: underline;
+}
+
+.about-me .card a:hover,
+a:active {
+	font-size: 1.2rem;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+/* 
+.about-me a {
+	text-transform: uppercase;
+	display: inline-block;
+	width: 10rem;
+	padding: 8px;
+	margin-top: 15px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	color: #000;
+	text-decoration: none;
+}
+
+.about-me a:hover {
+	background: #000;
+	color: #fff;
+	transition: all 0.5s ease;
+} */
 
 .about-me .personal-wrapper {
 	display: flex;
@@ -568,7 +635,7 @@ a.selected-item:before,
 ----------------------------------------- */
 
 .technical-skills {
-	background: #333 url("../img/coding-min.jpg") no-repeat 50% 80% fixed;
+	background: #333 url("../img/skills-bg.jpg") no-repeat 50% 80% fixed;
 	background-size: cover;
 	position: relative;
 }
@@ -584,10 +651,10 @@ a.selected-item:before,
 	background: #fff;
 }
 .technical-skills .skills-wrapper {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 .technical-skills .skill {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 .technical-skills .skill .chart {
 	position: relative;
