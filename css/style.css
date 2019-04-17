@@ -414,10 +414,14 @@ a.selected-item:before,
 	font-size: 0.75rem;
 }
 
+.about-me .rowcentered {
+	text-align: center;
+}
+
 .about-me .card {
 	width: 18rem;
 	padding: 15px;
-	margin: 5px;
+	margin: auto;
 }
 
 .about-me .card .card-body .card-title {
