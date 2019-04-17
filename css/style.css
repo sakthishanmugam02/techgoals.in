@@ -380,6 +380,9 @@ a.selected-item:before,
 /* ---------------------------------------
 			Start About me Section 
 ----------------------------------------- */
+.about-me {
+	background: #333 url("../img/about-bg.jpg") no-repeat 50% 80% fixed;
+}
 
 .about-me .my-pic,
 .about-me .introduction {
@@ -452,7 +455,6 @@ a.selected-item:before,
 .about-me .card a:link,
 a:visited {
 	margin: 1px;
-	background-color: white;
 	color: grey;
 	text-decoration: underline;
 }
